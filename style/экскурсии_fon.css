@@ -1,0 +1,64 @@
+body {
+    background-image: url('../image/фон_экс.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    font-size: 42px;
+    color: ff9966;
+}
+.menu-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline; /*подчеркивает текст*/
+}
+#nav {
+    z-index: 2;
+}
+.menu-item .submenu {
+    background: #ffe4c4;
+    position: absolute;
+    cursor: pointer;
+    padding: 10px;
+    width: 490px;
+    z-index: 1;
+}
+table.delivery {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table.delivery thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table.delivery th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+img {
+    max-height: 480px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+#btn6 {
+    margin: 30px 0 250px 0;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffefd5;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

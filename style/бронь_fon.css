@@ -1,0 +1,101 @@
+body {
+    background-image: url('../image/фон_бронь.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+.one {
+    margin: 20px 0px 20px 30px;
+    font-size: 20px;
+    font-family: 'Brush Script MT';
+    color: black;
+    text-decoration: underline;
+}
+.text_1 {
+    margin: 0px 0px 10px 30px;
+    font-style: italic;
+    font-size: 15px;
+    color: #0a0a0a;
+}
+table#t1 {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table#t1 thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table#t1 th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+table#t2 {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table#t2 thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table#t2 th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+#t1 tr:nth-child(odd) {
+    background-color: #fff5ee; /* фон нечетных строк */
+}
+
+#t1 tr:nth-child(even) {
+    background-color: #fff0f5; /* фон четных строк */
+}
+#t2 tr:nth-child(odd) {
+    background-color: #fff5ee; /* фон нечетных строк */
+}
+
+#t2 tr:nth-child(even) {
+    background-color: #faf0e6; /* фон четных строк */
+}
+#btn1 {
+    margin: 20px;
+    border-color: #a9a9a9; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #faf0e6;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#btn2 {
+    margin: 20px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff5ee;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,266 @@
+/*тело главной страницы*/
+body {
+    background-image: url('../image/фон_бронь.jpg');
+    background-attachment: fixed; /*зафиксировать изображение*/
+    background-size: cover;
+}
+/*объединение блоков*/
+#wrapper {
+    margin: auto;
+}
+/*заголовок*/
+header {
+    padding: 20px 0;
+}
+/*поисковик(выравнивание по правому краю)*/
+form[name='search'] {
+    float: right;
+}
+.o {
+    margin-left: 10px; /* общая ширина блока*/
+    float: left;
+}
+#p1 {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.o1 {
+    float: right;
+    font-family: 'Luminari';
+    font-size: 22px;
+    font-weight: bold;
+    color: #464544;
+    text-shadow: 1px 1px 3px gray;
+    text-align: center;
+}
+input[type='text'] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+    margin: 20px 0px 20px 0px;
+}
+button {
+    color: #fff;
+    background-color: #b22222;
+    border: none;
+    height: 32px;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+p {
+    margin: 20px 0;
+}
+nav {
+    margin: 10px auto;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-position: inside;
+    font: 12px 'Arial', sans-serif;
+    padding: 10px;
+}
+ul#menu,
+ul#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+ul#menu a,
+ul#menu span {
+    text-decoration: none;
+}
+
+ul#menu li {
+    margin-top: 0px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 20px 5px 0px 5px;
+}
+
+ul#menu li a,
+ul#menu li span {
+    background: #800000;
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+}
+
+ul#menu li a:hover,
+ul#menu li span:hover {
+    background: #d2691e;
+}
+
+ul#menu li ul li a {
+    background: #ffdead;
+    color: #000000;
+    padding-left: 10px;
+}
+
+ul#menu li ul li a:hover {
+    background: #f4a460;
+    padding-left: 15px;
+}
+/*заголовок*/
+#heading {
+    background: #efa94a;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 60%;
+}
+h1 {
+    display: inline-block;
+    color: #fff8dc;
+    font: 35px/35px 'Impact', sans-serif;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#img_a {
+    width: auto;
+}
+/*контакты + карта(слайдбар)*/
+aside {
+    float: right;
+    max-width: 35%;
+    margin: 0px 10px 20px 10px;
+}
+/*основной контент*/
+section {
+    margin: 20px;
+    float: left;
+    max-width: 80%;
+}
+/*карта*/
+aside > h2 {
+    background: #800000;
+    font: 16px 'Verdana', sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+aside > p {
+    border: 1px solid #e7e7e7;
+    padding: 5px;
+    margin: 0;
+}
+/*две картинки*/
+
+.gallery img {
+    margin: 1px; /* внешние отступы картинок */
+    border: 3px solid #fff; /* рамка картинок */
+}
+a.photo:hover img {
+    border: 3px solid #034f80; /* изменение цвета рамки при наведении на картинку */
+}
+#popl {
+    font-family: 'Brush Script MT';
+    font-size: 17px;
+    font-style: italic;
+    text-align: justify;
+}
+#kom {
+    max-width: 80%;
+    max-height: 60%;
+    margin: 10px;
+}
+/*Близлежащие туристические объекты,бары и торговые улицы(section)*/
+section > h2 {
+    background: #7f180d;
+    font: 30px 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 10px;
+}
+.ramka {
+    border-color: #7f180d; /*цвет рамки*/
+    border-style: dashed; /*двойная сплошная линия*/
+    border-width: thick; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffdead;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+figure figcaption {
+    font-size: 12px;
+    text-align: center;
+
+    font-family: 'Arial';
+}
+#img_1 {
+    height: 100px;
+    width: 100px;
+}
+figure div {
+    color: #4f273a;
+}
+
+.team-row figure {
+    margin: 0px 18px 0px 18px;
+    display: inline-block;
+}
+/*подвал*/
+.ramka1 {
+    color: black;
+    font-size: 11px;
+    max-width: 100%;
+    height: 100%;
+    background-color: #ffdead;
+    float: left;
+    border-radius: 10px;
+    margin: 20px 0 0px 10px;
+}
+.f1 {
+    color: black;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-align: justify;
+}
+.f2 {
+    padding: 0px 5px;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    margin: 0;
+    text-align: right;
+    font-weight: bold;
+}
+.f3 {
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#img_k {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px;
+}
+.t {
+    max-width: 42%;
+    margin: 0 10px;
+}
+.t1 {
+    max-width: 45%;
+    margin: 0 10px;
+}

@@ -1,0 +1,203 @@
+body {
+    background-image: url('../image/фон_арх.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 42px;
+}
+.ram {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    margin: 60px 0px 10px 20px;
+}
+.t_1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: 'Brush Script MT';
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+    margin: 60px 30px 10px 0px;
+}
+.ram1 {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    margin: 60px 20px 10px 20px;
+}
+.two {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+}
+.text2 {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: 'Brush Script MT';
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+    margin: 160px 30px 0px 30px;
+}
+.text3 {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-family: 'Brush Script MT';
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+    margin: 50px 30px 10px 0px;
+}
+.text4 {
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'Brush Script MT';
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+    margin: 20px 30px 10px 30px;
+}
+/* Контейнер слайд-шоу */
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+
+    margin: 30px 20px 20px 30px;
+}
+/* Скрыть изображения по умолчанию */
+.mySlides {
+    display: none;
+    border-color: #8b0000; /*цвет рамки*/
+    border-style: dotted; /*точечная линия*/
+    border-width: medium; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    padding: 10px;
+    background-color: #deb887;
+}
+.img_n {
+    width: 350px;
+    height: 300px;
+}
+/* Вперед и назад кнопки */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Положение "next кнопки" справа */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора добавьте черный цвет фона с немного прозрачным */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Точки/пули/индикаторы */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+    background-color: #717171;
+    margin-left: 30px;
+}
+/*рамка для ссылки*/
+.s_n {
+    border-color: #deb887; /*цвет рамки*/
+    border-style: dotted; /*точечная линия*/
+    border-width: medium; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    font-weight: bold;
+    background-color: #ffebcd;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 950px;
+    opacity: 0%;
+}
+.s_n:hover {
+    max-width: 350px;
+    opacity: 100%;
+}
+.ramka {
+    border-color: #deb887; /*цвет рамки*/
+    border-style: dashed; /*двойная сплошная линия*/
+    border-width: thick; /*толщина линии*/
+    border-radius: 3px; /*скругленные углы*/
+    font-style: italic;
+    background-color: #ffebcd;
+    padding: 10px;
+    width: 430px;
+    height: 380px;
+    margin: 25px 0px 20px 10px;
+}
+#btn6 {
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 10px 0px 20px 20px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffebcd;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 10px;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+}
+.r1 {
+    text-indent: 4.5cm;
+}
+.r2 {
+    text-indent: 4cm;
+}
+.r3 {
+    text-indent: 3.5cm;
+}

@@ -1,0 +1,39 @@
+body {
+    background-image: url('../image/фон_права.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+.text_1 {
+    margin: 0px 0px 10px 60px;
+    font-family: 'Bradley Hand';
+    font-size: 24px;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+.text_2 {
+    margin: 0px 0px 5px 60px;
+    font-family: 'Comic Sans MS';
+    font-size: 18px;
+    color: #140f0b;
+}
+#btn6 {
+    margin: 60px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff8dc;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

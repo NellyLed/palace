@@ -1,0 +1,184 @@
+@media only screen  and (max-width:917px)  and (min-width:480px)
+{
+	table#mim thead {
+		display: none;
+	}
+	table#mim tr {
+		display: block;
+		width:100%;
+
+	}
+	table#mim td {
+		display: block;
+		text-align: left;
+		width:100%;
+		font-size:20px;	
+	}
+	table#mim td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}
+		table#mim_1 thead {
+		display: none;
+	}
+	table#mim_1 tr {
+		display: block;
+		width:100%;
+
+	}
+	table#mim_1 td {
+		display: block;
+		text-align: left;
+		width:100%;
+		font-size:20px;	
+	}
+	table#mim_1 td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}	
+}
+@media only screen  and (max-width:480px)  and (min-width:200px)
+{
+	.mo1
+	{
+		font-size:30px;
+	}
+	table#mim thead {
+		display: none;
+	}
+	table#mim tr {
+		display: block;
+		width:100%;
+
+	}
+	table#mim td {
+		display: block;
+		text-align: left;
+		width:100%;
+		font-size:20px;	
+	}
+	table#mim td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}
+		table#mim_1 thead {
+		display: none;
+	}
+	table#mim_1 tr {
+		display: block;
+		width:100%;
+
+	}
+	table#mim_1 td {
+		display: block;
+		text-align: left;
+		width:100%;
+		font-size:20px;	
+	}
+	table#mim_1 td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}	
+}
+@media only screen  and (max-width:768px)  and (min-width:480px)
+{
+	/*
+	table#mim
+	{
+		margin:0 0;
+		width:60%;
+	}
+	table#mim_1
+	{
+		margin:0 230px;
+		width:60%;
+	}
+	.k1
+	{
+		margin:0 0 0 200px;
+	}
+	.k2
+	{
+		margin:0 0 0 200px;
+	}
+	*/
+}
+@media only screen  and (max-width:480px)  and (min-width:320px)
+{
+	/*
+	table#mim_1
+	{
+		margin:0 0 0 20px;
+	}
+		table#mim
+	{
+		margin:0 0 0 20px;
+	}
+	table#mim thead {
+		display: none;
+	}
+	table#mim tr {
+		display: block;
+		width:90%;
+
+	}
+	table#mim td {
+		display: block;
+		text-align: left;
+		width:90%;
+		font-size:20px;
+		
+	}
+	table#mim td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}
+		table#mim_1 thead {
+		display: none;
+	}
+	table#mim_1 tr {
+		display: block;
+		width:90%;
+
+	}
+	table#mim_1 td {
+		display: block;
+		text-align: left;
+		width:90%;
+		font-size:20px;	
+	}
+	table#mim_1 td:before {
+		content: attr(aria-label);
+		float: left;
+		font-weight: bold;
+	}
+	.k1
+	{
+		margin:0;
+	}
+	.k2
+	{
+		margin:0;
+	}
+}
+@media only screen  and (max-width:320px)  and (min-width:0px)
+{
+	table#mim td {
+		display: block;
+		text-align: left;
+		width:90%;
+		font-size:15px;	
+	}
+		table#mim_1 td {
+		display: block;
+		text-align: left;
+		width:90%;
+		font-size:15px;	
+	}
+	*/
+}

@@ -1,0 +1,226 @@
+body {
+    background-image: url('../image/фон_зн.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+/*королевство*/
+.text {
+    text-align: justify;
+    margin: 20px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Georgia';
+    font-style: italic;
+    float: right;
+}
+.text_1 {
+    text-align: justify;
+    margin: 20px 0px 20px 30px;
+    font-size: 18px;
+    font-family: 'Georgia';
+    font-style: italic;
+}
+.text_2 {
+    font-size: 24px;
+    font-family: 'Georgia';
+    color: #9370db;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+/*сальдо*/
+.text1 {
+    text-align: justify;
+    margin: 20px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Georgia';
+    font-style: italic;
+    float: right;
+}
+.text_11 {
+    text-align: justify;
+    margin: 20px 0px 20px 30px;
+    font-size: 18px;
+    font-family: 'Georgia';
+    font-style: italic;
+}
+.text_21 {
+    font-size: 24px;
+    font-family: 'Georgia';
+    color: #9370db;
+    font-style: italic;
+    font-weight: bold;
+}
+/*Agust D*/
+.text2 {
+    text-align: justify;
+    margin: 20px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Georgia';
+    font-style: italic;
+    float: right;
+}
+.text_12 {
+    text-align: justify;
+    margin: 20px 0px 20px 30px;
+    font-size: 18px;
+    font-family: 'Georgia';
+    font-style: italic;
+}
+.text_22 {
+    font-size: 24px;
+    font-family: 'Georgia';
+    color: #9370db;
+    font-style: italic;
+    font-weight: bold;
+}
+/*Маскарад*/
+.text3 {
+    text-align: justify;
+    margin: 20px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Georgia';
+    font-style: italic;
+    float: right;
+}
+.text_13 {
+    text-align: justify;
+    margin: 20px 0px 20px 30px;
+    font-size: 18px;
+    font-family: 'Georgia';
+    font-style: italic;
+}
+.text_23 {
+    font-size: 24px;
+    font-family: 'Georgia';
+    color: #9370db;
+    font-style: italic;
+    font-weight: bold;
+}
+/*Наследники*/
+.text4 {
+    text-align: justify;
+    margin: 20px 30px 0px 30px;
+    font-size: 20px;
+    font-family: 'Georgia';
+    font-style: italic;
+    float: right;
+}
+.text_14 {
+    text-align: justify;
+    margin: 20px 0px 20px 30px;
+    font-size: 18px;
+    font-family: 'Georgia';
+    font-style: italic;
+}
+.text_24 {
+    font-size: 24px;
+    font-family: 'Georgia';
+    color: #9370db;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#btn6 {
+    margin: 0px 0px 10px 35px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff5ee;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.flex0 {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: #db7093;
+    border-style: dashed;
+    border-width: thick;
+    border-radius: 10px;
+    background-color: #d8bfd8;
+    margin: 20px;
+    height: 80px;
+    border: solid 2px #ffffe0;
+    justify-content: space-evenly;
+}
+div > div {
+    width: 150px;
+    height: 44px;
+    background: #c8a2c8;
+    border-radius: 10px;
+    border: solid 2px #ffffe0;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 14pt;
+    color: #ffffe0;
+}
+
+.flex2 {
+    display: flex;
+    opacity: 0%;
+    justify-content: flex-start;
+}
+.flex3 {
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+}
+
+.flex5 {
+    display: flex;
+    opacity: 0%;
+    align-content: stretch;
+}
+.flex6 {
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+}
+
+.flex8 {
+    display: flex;
+    opacity: 0%;
+    align-content: stretch;
+}
+.flex9 {
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+}
+
+.flex11 {
+    display: flex;
+    opacity: 0%;
+    align-content: stretch;
+}
+.flex12 {
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+}
+.flex14 {
+    display: flex;
+    opacity: 0%;
+    align-content: stretch;
+}
+.flex15 {
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+}
+.r1 {
+    width: 700px;
+    height: 415px;
+}

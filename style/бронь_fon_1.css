@@ -1,0 +1,72 @@
+@media only screen  and (max-width:840px)  and (min-width:593px)
+{
+	table#t1
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+	table#t2
+	{
+		width: 60%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+}
+@media only screen  and (max-width:593px)  and (min-width:440px)
+{
+	table#t1
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+	table#t2
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+}
+@media only screen  and (max-width:440px)  and (min-width:320px)
+{
+	table#t1
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+	table#t2
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+}
+@media only screen  and (max-width:320px)  and (min-width:200px)
+{
+	.mo1
+	{
+		font-size:30px;
+	}
+	table#t1
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+	table#t2
+	{
+		width: 80%;
+		border-collapse: collapse;
+		margin:20px auto;
+	}
+	.one
+	{
+	  margin:20px 0px 20px 10px;
+	}
+	.text_1
+	{
+		  margin:0px 0px 10px 10px;
+	}
+}

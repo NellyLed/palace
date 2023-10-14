@@ -1,0 +1,63 @@
+body {
+    background-image: url('../image/фон_как.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+.ram_1 {
+    border-color: #006400; /*цвет рамки*/
+    border-style: dotted; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #f5f5dc;
+    padding: 10px;
+    font-family: 'Georgia';
+    margin: 30px 30px;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 93%;
+}
+.table_even tr:hover td {
+    background-color: #f5f5dc;
+}
+#btn6 {
+    margin: 20px 30px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff5ee;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+table.table_even {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table.table_even thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table.table_even th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+.u {
+    max-width: 40%;
+    max-height: 40%;
+}

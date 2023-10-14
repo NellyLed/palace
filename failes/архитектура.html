@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Архитектура</title>
+        <meta charset="utf-8" />
+        <link
+            rel="stylesheet"
+            href="http://fonts.googleapis.com/css?family=Oswald:400,300"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../style/архитектура_fon.css" />
+        <link rel="stylesheet" href="../style/архитектура_fon_1.css" />
+    </head>
+    <body>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            function plusSlides(n) {
+                //элементы управления вперед и назад
+                showSlides((slideIndex += n));
+            }
+            function currentSlide(n) {
+                // Элементы управления миниатюрами изображений
+                showSlides((slideIndex = n));
+            }
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName('mySlides');
+                var dots = document.getElementsByClassName('dot');
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = 'none';
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(
+                        ' active',
+                        ''
+                    );
+                }
+                slides[slideIndex - 1].style.display = 'block';
+                dots[slideIndex - 1].className += ' active';
+            }
+        </script>
+        <div class="grid-container">
+            <div class="one">Внутреннее строение дворца</div>
+            <div class="ram">
+                <div class="ramka">
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <img src="../image/чханд_1.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/чханд_2.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/чханд_3.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/чханд_4.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/чханд_5.jpg" class="img_n" />
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <br />
+                <div class="r1">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            <div class="t_1">
+                <p>
+                    В настоящее время на территории Чхандоккун располагаются 13
+                    сооружений и 28 павильонов, возведенных на горе. Строения
+                    дворцового комплекса выполнены из дерева, с массивными
+                    крышами и «слабыми» стенами, выполняющие теплоизолирующую и
+                    защитную функции. Все сооружения опираются на каменные
+                    основания. Это сделано для снятия нагрузки с деревянных
+                    зданий и увеличения размера зданий. Здания строили
+                    различными способами соединения столбов, крыш, балок и опор.
+                    Например,тугон и иккон.<br /><br />
+                    Способ крепления «тугон» заключался в равном распределении
+                    нагрузки крыши на опоры и фундамент. При этом, крыши были
+                    высокими, из-за чего пропускалось много света, дом внутри
+                    казался выше,чем снаружи. Способ крепления «иккон»
+                    заключался в построении крыш в форме «бычьего языка». Это
+                    самая сложная конструкция для строительства сооружений.
+                    Крыши облицованы черепицей, имеют плавность линий и на
+                    коньке находится пятилепестковый цвет - эмблема правителя
+                    Кореи. Стены, балки, потолки и перекрытия украшает
+                    пятицветная роспись «танчхон». В ней преобладают синие и
+                    красные тона.
+                </p>
+            </div>
+            <div class="text2">
+                <p>
+                    <b>Инчончжон - символ дворца Чхандоккун</b><br />
+                    Проходя через самый старинный каменный мост в Сеуле -
+                    Кымчхонгё, люди попадают в павильон Инчжончжон. Это здание
+                    является главным в дворцовом комплексе, тут проходили
+                    основные торжественные церемонии, например, коронация нового
+                    государя, а также принимали иностранных послов. Передний
+                    двор здания покрыт тонкими каменными плитами, сделанными из
+                    кварца и мусковита. Эти вещества издавали белое свечение и
+                    прозрачность,делая лицо короля благородно сияющим.<br /><br />
+                    <b
+                        >Постоянная и частная резиденции короля - Сончжончжон и
+                        Хичжондан</b
+                    ><br />
+                    К востоку от павильона Инчжончжон расположена постоянная
+                    резиденция короля Сончжончжон. Его крыша покрыта черепицами
+                    синего цвета. Рядом находился павильон Хичжондан - зал
+                    заседаний государя с вассалами. Внешний вид здания типично
+                    корейский, но интерьер оформлен с элементами западного
+                    стиля.<br /><br />
+                    <b>Место для королевы, Тэчжочжон</b><br />
+                    Павильон Тэчжочжон - частная резиденция короля и королевы.
+                    Он делится на 2 части: спальня короля Тонондоль и спальня
+                    королевы Соондоль. Между ними расположен деревянный настил
+                    «тэчхон мару». За павильоном Тэчжочжон возведен большой
+                    цветник с широкими ступеньками, на каждой из которых
+                    высажены разные цветы и деревья. А во дворе находится
+                    небольшой сад, где растут остроконечные сосны и тисы.
+                </p>
+            </div>
+            <div class="ram2">
+                <div class="ramka">
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <img src="../image/инчж_1.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/инчж_2.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/инчж_3.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/инчж_4.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/инчж_5.jpg" class="img_n" />
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <br />
+                <div class="r2">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            <div class="ram1">
+                <div class="ramka">
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <img src="../image/garden_1.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/garden_2.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/garden_3.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/garden_4.jpg" class="img_n" />
+                        </div>
+                        <div class="mySlides">
+                            <img src="../image/garden_5.jpg" class="img_n" />
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <br />
+                <div class="r3">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            <div class="text3">
+                <p>
+                    <b>Хувон - любимый сад королей</b><br />
+                    Секретный сад - главный элемент дворцового комплекса. Он
+                    расположен в самой глубокой северной части дворца
+                    Чхандоккун. Был адаптирован к топографии, включает в себя
+                    небольшие холмы и естественные леса и минимум искуственных
+                    элементов. Общая площадь Хувона составляет 434.877 кв.
+                    метров, это 60% от общей площади дворцового комплекса
+                    Чхандоккун. Сад состоит из четырехэтажной цветочной террасы,
+                    построенной из длинных прямоугольных камней вдоль склона
+                    горы. Вместе с открытыми площадками она соединяет
+                    архитектурные сооружения. В саду сочиняли стихи, соцерзали,
+                    проводили банкеты, стреляли из лука, рыбачили и катались на
+                    лодке в пруду. Иногда запускали фейерверки и проводили
+                    церемонии. Например, военные учения и различные
+                    соревнования. Король высаживал и выращивал злаковые
+                    культуры, а королева разводила шелкопряды.<br />
+                </p>
+            </div>
+            <div class="text4">
+                <p>
+                    <b>В саду имеются:</b><br />
+                    - пруды Пуёнджи, Эрёнджи и Квалламджи<br />
+                    - трехсолетние деревья<br />
+                    - озеро<br />
+                    - терасса,газоны и павильоны <br />
+                    - более 56000 экземпляров различных видов растений ( грецкий
+                    орех, белый дуб, можжевельники, сливы и хвойные и джельковые
+                    деревья)<br />
+                    - поток Оннючхон (нефритовый ручей)<br />
+                    - Павильон Чондокджон<br />
+                    - U-образная канава Соёам (на скале)<br /><br />
+                    По канаве Соёам струилась вода и посылались винные чаши во
+                    время чтения импровизированных стихов. Это было частью
+                    художественных вечеров аристократии Павильон Чондокджон -
+                    важнейшее сооружение Сада. Он представляет собой
+                    гексагональный павильон с двухслойной крышей, построенный на
+                    краю пруда. В центре его потолка изображены
+                    драконы-близнецы, синий и желтый (небо и земля). Это
+                    единственное место,где они изображены. Вокруг ручья Оннючхон
+                    располагалось пять павильонов: Соёджон, Тхэгыкджон,
+                    Чонуиджон, Ноксанджон и Чхвиханджон. Чонуиджон -
+                    единственный павильон с соломенной крышей.
+                </p>
+            </div>
+
+            <a href="../главная.html" id="btn6"> Вернуться на главную </a>
+        </div>
+    </body>
+</html>

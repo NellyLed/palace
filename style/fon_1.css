@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    section {
+        margin: 45px 5px 20px 10px;
+        width: 740px;
+    }
+    aside {
+        margin: 20px 0px 20px 0px;
+        width: 400px;
+    }
+    .footer {
+        margin-left: 5px;
+        width: 740px;
+    }
+    .ramka1 {
+        width: 570px;
+    }
+    .ramka2 {
+        height: 140px;
+        width: 150px;
+    }
+    .f5 {
+        width: 710px;
+    }
+    #kom {
+        width: 500px;
+        height: 420px;
+    }
+    .t {
+        width: 360px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    section {
+        margin: 45px 5px 20px 10px;
+        width: 610px;
+    }
+    aside {
+        margin: 20px 10px 0px 0px;
+        width: 290px;
+    }
+    #img_a {
+        height: 400px;
+        width: 290px;
+    }
+    .ramka {
+        width: 275px;
+        height: 375px;
+        font-size: 12px;
+    }
+    aside > h2 {
+        width: 280px;
+    }
+    #kom {
+        width: 580px;
+        height: 380px;
+        margin-left: 15px;
+    }
+    .t {
+        width: 295px;
+        height: 195px;
+    }
+    .ramka1 {
+        width: 440px;
+        height: 180px;
+        margin-left: 10px;
+    }
+    .ramka2 {
+        width: 160px;
+        height: 180px;
+    }
+    .footer {
+        width: 610px;
+        margin-left: 10px;
+    }
+    .f5 {
+        width: 590px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+    aside {
+        margin: 20px 0px 0px 0px;
+        width: 260px;
+    }
+    section {
+        margin: 45px 0px 20px 5px;
+        width: 460px;
+    }
+    #kom {
+        width: 430px;
+        height: 300px;
+        margin-left: 15px;
+    }
+    #img_a {
+        height: 353px;
+        width: 253px;
+    }
+    .ramka1 {
+        width: 315px;
+        height: 205px;
+        margin-left: 5px;
+    }
+    .ramka2 {
+        width: 150px;
+        height: 205px;
+    }
+    .footer {
+        width: 470px;
+        margin-left: 5px;
+    }
+    .f5 {
+        width: 450px;
+        margin-left: 5px;
+    }
+    aside > h2 {
+        width: 240px;
+        margin: 20px 0px 0px 0px;
+    }
+    .ramka {
+        width: 240px;
+        height: 400px;
+    }
+    .t {
+        width: 220px;
+        height: 110px;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    #img_a {
+        height: 350px;
+        width: 250px;
+    }
+    aside {
+        float: left;
+        margin: 3px;
+    }
+    .ramka {
+        width: 240px;
+        height: 530px;
+        margin-left: 5px;
+    }
+    #kom {
+        margin-left: 10px;
+    }
+    .t {
+        margin-left: 20px;
+    }
+    .ramka1 {
+        margin-left: 2px;
+        width: 313px;
+        height: 230px;
+    }
+    .ramka2 {
+        height: 210px;
+        margin-right: 5px;
+    }
+    .footer {
+        margin-left: 2px;
+    }
+}
+@media only screen and (max-width: 320px) and (min-width: 0px) {
+    #img_a {
+        height: 400px;
+        width: 290px;
+    }
+    aside {
+        width: 300px;
+        margin: 3px;
+    }
+    section {
+        margin: 45px 5px 20px 5px;
+        width: 290px;
+    }
+    #kom {
+        width: 270px;
+        height: 180px;
+        margin: 5px;
+    }
+    .footer {
+        width: 280px;
+        margin: 3px;
+    }
+    .f5 {
+        width: 285px;
+        padding: 5px;
+        height: 80px;
+        margin: 5px;
+    }
+    .t {
+        width: 280px;
+        height: 180px;
+    }
+    .ramka {
+        width: 270px;
+        height: 480px;
+        font-size: 14px;
+        margin: 3px;
+    }
+    .ramka1 {
+        width: 300px;
+        height: 260px;
+        margin: 3px;
+    }
+    .ramka2 {
+        width: 300px;
+        height: 120px;
+        float: left;
+        margin: 3px;
+    }
+    aside > h2 {
+        width: 285px;
+        margin: 20px 0px 0px 0px;
+    }
+    form[name='search'] {
+        float: left;
+    }
+    .team-row figure {
+        margin: 0px 12px 0px 12px;
+    }
+    .y {
+        margin: 0;
+    }
+    #img_k {
+        margin: 5px 39px;
+    }
+}

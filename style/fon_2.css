@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1700px) and (min-width: 992px) {
+    section {
+        width: 59%;
+        margin: 10px;
+    }
+    aside {
+        width: 40%;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 860px) {
+    section {
+        width: 62%;
+        margin: 10px;
+    }
+    aside {
+        width: 30%;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 860px) and (min-width: 768px) {
+    section {
+        width: 64%;
+        margin: 10px;
+    }
+    aside {
+        width: 28%;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 250px) {
+    section {
+        max-width: 100%;
+        margin: 10px;
+    }
+    aside {
+        max-width: 100%;
+        margin: 0;
+        float: left;
+    }
+    .ramka1 {
+        margin: 0;
+    }
+    #kom {
+        max-width: 100%;
+        margin: 0px;
+    }
+    .t {
+        max-width: 100%;
+        margin: 0px;
+    }
+    .t1 {
+        max-width: 100%;
+        margin: 0px;
+    }
+}

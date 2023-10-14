@@ -1,0 +1,69 @@
+body {
+    background-image: url('../image/фон_вопр.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+ul#menu,
+ul#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    margin: 0px 60px 0px 60px;
+    width: 90%;
+}
+
+ul#menu a,
+ul#menu span {
+    display: block;
+    text-decoration: none;
+}
+
+ul#menu li {
+    margin-top: 0px;
+}
+
+ul#menu li a,
+ul#menu li span {
+    background: #c0c0c0; /*серый ul*/
+    color: white;
+    padding: 7px;
+}
+
+ul#menu li a:hover,
+ul#menu li span:hover {
+    background: #808080;
+} /*при наведении ul*/
+
+ul#menu li ul li a {
+    color: #000000;
+    padding-left: 20px;
+}
+
+ul#menu li ul li a:hover {
+    border-left: 5px #000000 solid;
+    padding-left: 15px;
+}
+#btn6 {
+    margin: 20px 60px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff5ee;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.t {
+    text-align: justify;
+}

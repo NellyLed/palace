@@ -1,0 +1,90 @@
+body {
+    background-image: url('../image/фон_стоим.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+.p {
+    margin-bottom: 30px;
+}
+#mim_1 tr:nth-child(odd) {
+    background-color: #fff5ee; /* фон нечетных строк */
+}
+
+#mim_1 tr:nth-child(even) {
+    background-color: #fff0f5; /* фон четных строк */
+}
+#mim tr:nth-child(odd) {
+    background-color: #fdf5e6; /* фон нечетных строк */
+}
+
+#mim tr:nth-child(even) {
+    background-color: #fff8dc; /* фон четных строк */
+}
+.k1 {
+    font-style: italic;
+    font-family: 'Georgia';
+    font-size: 20px;
+    text-align: center;
+}
+.k2 {
+    font-style: italic;
+    font-family: 'Georgia';
+    font-size: 20px;
+    display: none;
+    text-align: center;
+}
+#btn6 {
+    margin: 20px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #fff5ee;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+table#mim {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table#mim thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table#mim th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}
+table#mim_1 {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+table#mim_1 thead {
+    font-family: 'American Typewriter';
+    font-size: 18px;
+    text-shadow: 3px 1px 3px black;
+}
+table#mim_1 th,
+td {
+    border: solid;
+    border-style: double;
+    border-color: black;
+    border-width: medium;
+}

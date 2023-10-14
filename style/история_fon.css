@@ -1,0 +1,57 @@
+body {
+    background-image: url('../image/фон_ист.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'nav article ads'
+        'footer footer footer';
+    grid-gap: 1vw;
+
+    margin: 0;
+    text-align: justify;
+}
+#pageHeader {
+    grid-area: header;
+    text-align: center;
+    font-family: 'Luminari';
+    font-size: 36px;
+    color: #000000;
+    font-family: bold;
+    text-shadow: 1px 1px 3px gray;
+    margin: 20px 0px 20px 0px;
+}
+#pageFooter {
+    grid-area: footer;
+    margin: 20px auto;
+}
+#mainArticle {
+    grid-area: article;
+}
+#mainNav {
+    grid-area: nav;
+    margin: 0 20px;
+    font-size: 23px;
+    font-family: century gothic;
+    font-style: italic;
+    text-align: justify;
+}
+#pageFooter a {
+    margin: 0;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffebcd;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.po2 {
+    max-width: 100%;
+    max-height: 60%;
+}

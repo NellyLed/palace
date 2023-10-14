@@ -1,0 +1,144 @@
+body {
+    background-image: url('../image/фон_фест.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 3vw;
+}
+.ram {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 60px 20px 10px 20px;
+}
+.ram1 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+    margin: 70px 20px 30px 0px;
+}
+
+.ram2 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin: 100px 50px 0px 50px;
+    font-size: 18px;
+    text-align: justify;
+}
+.ram4 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    margin: 10px 0px 30px 10px;
+    font-size: 18px;
+}
+/* Контейнер слайд-шоу */
+.slideshow-container {
+    max-width: 850px;
+    max-height: 650px;
+    position: relative;
+    margin: 10px 10px 20px 10px;
+}
+/* Скрыть изображения по умолчанию */
+.mySlides {
+    display: none;
+    border-color: #ffb6c1; /*цвет рамки*/
+    border-style: dotted; /*точечная линия*/
+    border-width: medium; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    padding: 10px;
+    background-color: #ffdab9;
+}
+
+/* Вперед и назад кнопки */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Положение "next кнопки" справа */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора добавьте черный цвет фона с немного прозрачным */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Точки/пули/индикаторы */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+    background-color: #717171;
+    margin-left: 30px;
+}
+.img_n {
+    width: 800px;
+    height: 500px;
+}
+.ramka {
+    border-color: #ffdab9; /*цвет рамки*/
+    border-style: dashed; /*двойная сплошная линия*/
+    border-width: thick; /*толщина линии*/
+    border-radius: 3px; /*скругленные углы*/
+    font-style: italic;
+    background-color: #ffe4e1;
+    padding: 10px;
+    max-width: 300%;
+
+    width: 850px;
+    height: 550px;
+
+    margin: 30px 10px 30px 30px;
+}
+#btn2 {
+    margin: 450px 10px 40px 30px;
+    border-color: #ffc0cb; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffebcd;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.r {
+    text-indent: 9.5cm;
+}

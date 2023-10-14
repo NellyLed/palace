@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1500px) and (min-width: 480px) {
+    .mo1 {
+        font-size: 26px;
+    }
+    table.delivery {
+        width: 100%;
+        margin: 20px 10px 20px 10px;
+    }
+    #btn6 {
+        margin: 0px 0px 20px 20px;
+    }
+}
+@media only screen and (max-width: 479px) and (min-width: 200px) {
+    table.delivery thead {
+        display: none;
+    }
+    table.delivery tr {
+        display: block;
+        width: 100%;
+    }
+    table.delivery td {
+        display: block;
+        text-align: left;
+        width: 100%;
+        font-size: 19px;
+    }
+    table.delivery td:before {
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+}

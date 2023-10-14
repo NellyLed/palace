@@ -1,0 +1,52 @@
+body {
+    background-image: url('../image//фон_рядом.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mo1 {
+    text-align: center;
+    font-family: 'Luminari';
+    text-shadow: 1px 1px 3px gray;
+    font-size: 42px;
+    color: ff9966;
+}
+/* Gallery */
+.gallery img {
+    margin: 20px 50px; /* внешние отступы картинок */
+    border: 3px solid #fff; /* рамка картинок */
+    max-width: 25%;
+    max-height: 20%;
+}
+.gallery {
+    margin: 0 50px;
+}
+a.photo:hover img {
+    border: 3px solid #034f80; /* изменение цвета рамки при наведении на картинку */
+}
+.red_eight {
+    border-color: #ffb6c1; /*цвет рамки*/
+    border-style: dotted; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffe4c4;
+    padding: 10px;
+    font-family: 'Georgia';
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 20px;
+    width: 95%;
+}
+#btn6 {
+    margin: 30px 20px;
+    border-color: #808080; /*цвет рамки*/
+    border-style: dashed; /*точечная линия*/
+    border-width: 5px; /*толщина линии*/
+    border-radius: 10px; /*скругленные углы*/
+    background-color: #ffefd5;
+    font-size: 15px;
+    font-family: 'Didot';
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
